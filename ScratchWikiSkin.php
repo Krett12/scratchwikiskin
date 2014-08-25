@@ -107,11 +107,10 @@ class ScratchWikiSkinTemplate extends BaseTemplate{
 			if (!$wgUser->isLoggedIn()) { ?>
 			<div class=box>
 				
-				<h1>Help the wiki!</h1>
+				<h1>Would you like to contribute?</h1>
 				<div class=box-content>
 				The Scratch Wiki is made by and for Scratchers. Do you want to contribute?<br><br>
-				<a href="/wiki/Contribute_to_the_Scratch_Wiki">Learn more about joining as an editor!</a><br><br>
-				<a href = "/wiki/Scratch_Wiki_talk:Community_Portal">See discussions in the Community Portal</a>
+				<a href="/wiki/Scratch_Wiki:Become_a_Contributor">Learn more about joining as an editor!</a><br><br>
 				</div>
 				
 			</div>
@@ -207,7 +206,7 @@ foreach ( $footerlinks as $aLink ) {
               <ul>
                 <li><a href = "http://scratch.mit.edu/community_guidelines/">Community Guidelines</a></li>
                 <li><a href = "http://scratch.mit.edu/discuss/">Discussion Forums</a></li>
-                <li><a href = "http://wiki.scratch.mit.edu/">Scratch Wiki</a></li>
+                <li><b>Scratch Wiki</b></li>
               </ul>
             </li>
             <li>
